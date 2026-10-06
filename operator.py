@@ -1,10 +1,3 @@
-'''
-a=3
-b=2
-c=6
-print(a%b%c)
-'''
-
 
 # Calculate the total price of 5 notebooks if one notebook costs â‚¹40
 
@@ -123,4 +116,78 @@ first = int(input("Enter a number"))
 second = int(input("Enter a number"))
 print(first > 10)
 print(second > 10)
+
+
+
+# ref code : 
+
+
+
+
+
+
+a = 34
+b = "10"
+
+print(a+int(b))
+
+
+a = int(input('Enter First No --> '))  # 9
+b = int(input('Enter 2nd No --> '))   # 2
+
+print("Addition of",a," + ",b," --> ",a+b)
+print("Sub of",a," - ",b," --> ",a-b)
+print("Mul of",a," * ",b," --> ",a*b)
+print("Div of",a," / ",b," --> ",a/b)  
+print("Mod of",a," % ",b," --> ",a%b) 
+print("Floor Div of",a," // ",b," --> ",a//b)  
+print("Exponential of",a," ** ",b," --> ",a**b) 
+
+
+
+#  Comparison 
+
+a = 45
+b = 4
+
+print(a > b)
+print(a < b)
+print(a == b)
+print(a != b)
+print(a >=  b)
+print(a <= b)
+
+
+age = 18 
+
+if(age >= 18):
+    print("U R eligible for voting ")
+else:
+    print("Not Eligible for voting ")  
+
+marks = 80
+print(marks > 50)  
+
+
+print(True and True)
+print(True and False)
+print(False and True)
+print(False and False)
+
+print(True or True)
+print(True or False)
+print(False or True)
+print(False or False)
+
+
+print(not(True and True))
+
+
+print(22 == 22 and 41 != 23 and (45 == 54))
+print(True and True and False)
+
+print(not(True) and not(45 > 566 and 566 == 566))
+
+print(not(False) and 34 != 34 or not(32 >= 21 and not(True)))
+print(True and False or True)
 
