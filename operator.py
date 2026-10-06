@@ -58,3 +58,16 @@ print("remaining min", remaining_min)
 a , b, c = 10,20,30
 avg = (a+b+c)/3
 print("Average is", avg)
+
+
+# Logical and Comparision operators
+
+print (not (True) and 31 >= 34 or not(32> (True)) and not (True or 56 != 0))
+
+print (not(0 == 0) and 34 >= 34 or not(32 and not (False)) and not (False or 0 != 0))
+
+print(("Ram" == "ram") and (e> 0) and 34 != 34 or not(32 >= 21 and not(True)) and not(True or 56 != e))
+
+print (not (False) and 34 != 34 or not(int("32") >= 21 and not (True)) and not(True or 0.1 != 0))
+
+print (not (False) and 34 <= 0 or not(32 >= 21 and not( '''Sahil''' == 'Sahil''')) and not (True or 56 != 0))
