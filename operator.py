@@ -100,3 +100,27 @@ print(a >= b)
 print(a < b)
 print(a <= b)
 
+
+# Logical Operators
+
+a= 10
+b = 20
+print(a > b and a > 15 )
+print(a < b and a > 15 )
+print( not(a > b) )
+
+age= 25
+print(age >=18 and age<=60)
+
+marks = 35
+print(marks >= 40 or marks== 35)
+
+age1 = int(input("enter age -"))
+salary = int(input("enter salary -"))
+print(age1 >= 18 and salary >=20000)
+
+first = int(input("Enter a number"))
+second = int(input("Enter a number"))
+print(first > 10)
+print(second > 10)
+
