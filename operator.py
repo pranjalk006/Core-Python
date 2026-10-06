@@ -71,3 +71,32 @@ print(("Ram" == "ram") and (e> 0) and 34 != 34 or not(32 >= 21 and not(True)) an
 print (not (False) and 34 != 34 or not(int("32") >= 21 and not (True)) and not(True or 0.1 != 0))
 
 print (not (False) and 34 <= 0 or not(32 >= 21 and not( '''Sahil''' == 'Sahil''')) and not (True or 56 != 0))
+
+
+# Comparision Opertors
+
+aa = int(input("Enter a number"))
+bb = int(input("Enter a number"))
+
+print(aa >= bb)
+
+c = int(input("Enter a number"))
+print(c > 18)
+
+d = int(input("Enter a number"))
+e = int(input("Enter a number"))
+print(d != e)
+
+student = 50
+print(student>=40)
+
+b = int(input("Enter a number"))
+a = int(input("Enter a number"))
+
+print(a == b)
+print(a != b)
+print(a > b)
+print(a >= b)
+print(a < b)
+print(a <= b)
+
