@@ -1,3 +1,4 @@
+# Arithmetic operators
 
 # Calculate the total price of 5 notebooks if one notebook costs â‚¹40
 
@@ -120,10 +121,6 @@ print(second > 10)
 
 
 # ref code : 
-
-
-
-
 
 
 a = 34
