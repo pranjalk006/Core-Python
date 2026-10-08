@@ -191,3 +191,15 @@ print(not(True) and not(45 > 566 and 566 == 566))
 print(not(False) and 34 != 34 or not(32 >= 21 and not(True)))
 print(True and False or True)
 
+
+# assignment operator
+x = 20
+x //= 3
+x += 7
+print(x)
+
+x = 5
+x **= 3
+x %= 10
+print(x)
+
