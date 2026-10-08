@@ -200,3 +200,15 @@ x **= 3
 x %= 10
 print(x)
 
+
+# Membership operator
+
+x = "Python"
+print("P" in x)
+print("p" in x)
+
+
+numbers = [10, 20, 30, 40]
+print(20 in numbers)
+print(50 not in numbers)
+
