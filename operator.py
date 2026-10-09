@@ -212,6 +212,7 @@ numbers = [10, 20, 30, 40]
 print(20 in numbers)
 print(50 not in numbers)
 
+# SECTION A: ARITHMETIC OPERATORS (+, -, *, /, //, %, **)
 
 # Q1
 a = 15 // 4
@@ -244,6 +245,8 @@ print(a // b)
 x = 5.5 + 4.5 * 2 // 3
 print(x)
 
+#SECTION B: RELATIONAL / COMPARISON OPERATORS (==, !=, >, <, >=, <=)
+
 # Q08
 print(10 == 10.0)
 
@@ -262,6 +265,8 @@ print(1 < a < 10)
 
 # Q13
 print(10 != 10.0)
+
+# SECTION C: LOGICAL OPERATORS (AND, OR, NOT)
 
 # Q14
 x = 0 and 10
@@ -292,6 +297,8 @@ a = True
 b = False
 print(a and not b or b)
 
+# SECTION D: ASSIGNMENT & COMPOUND OPERATORS (=, +=, -=, *=, /=, %=, //=, **=, :=)
+
 # Q21
 a = 10
 a += 5 * 2
@@ -320,6 +327,8 @@ if (n := len("Python")) > 5:
 x = 12
 x %= 5
 print(x)
+
+#SECTION E: BITWISE OPERATORS (&, |, ^, ~, <<, >>)
 
 # Q27
 a = 5 # 0101
@@ -350,6 +359,8 @@ print(x >> 3)
 a = 1
 print((a << 3) - 1)
 
+#SECTION F: MEMBERSHIP OPERATORS (IN, NOT IN)
+
 # Q34
 s = "py" in "python"
 print(s)
@@ -377,6 +388,8 @@ a = [1, 2]
 b = [1, 2]
 print(a is b, a == b)
 
+# SECTION G: IDENTITY OPERATORS (IS, IS NOT)
+
 # Q41
 x = 256
 y = 256
@@ -400,6 +413,8 @@ print(p is not q)
 x = True
 y = 1
 print(x is y)
+
+# SECTION H: COMBINED & SPECIAL OPERATOR PRECEDENCE CHALLENGES
 
 # Q46
 a = 10
