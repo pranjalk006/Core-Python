@@ -444,4 +444,33 @@ y = 5
 z = x > y and x & y or x ^ y
 print(z)
 
+# Membership Operator
+
+# Q1 Create a string: language = "Python" Check whether "P" exists in the string.
+language = "Python"
+print("P" in language)
+
+#Q2 Check whether "Java" exists in: courses = ["Python", "Java", "SQL"]
+courses = ["Python", "Java", "SQL"]
+print("Java" in courses)
+
+# Q3 Check whether "C++" does not exist in the above list.
+print("c++" in courses)
+
+#Q4 Take a name from the user and check whether "a" exists in the name.
+name = input("enter name  ")
+print("a" in name)
+
+#Q5 Take an email from the user and check whether "@" exists in it.
+email = input("enter email  ")
+print("@" in email)
+
+#Q6 Create: numbers = [10, 20, 30, 40, 50] Check whether 30 and 100 are present.
+numbers = [10, 20, 30, 40, 50]
+print("30" and "100" in numbers)
+
+#Q7 Create: languages = ["Java", "Python", "C", "C++"] Check whether "Python" is present and "Ruby" is not present.
+languages = ["Java", "Python", "C", "C++"]
+print("python" in languages)
+
 
