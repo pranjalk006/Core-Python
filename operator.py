@@ -474,3 +474,19 @@ languages = ["Java", "Python", "C", "C++"]
 print("python" in languages)
 
 
+#Identity Operator : 
+
+a = 10
+b = 20
+
+c = 30
+d = 30
+
+e = 50
+f = e
+
+print(a is b)
+print(c is d)
+print(e is f)
+
+
