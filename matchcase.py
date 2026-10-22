@@ -136,6 +136,17 @@ match xyz :
 
      case _ :
         print("unknown")
+         
+# Q9 Pet name
+pet = input("Enter pet: ").lower()
 
-
+match pet:
+    case "dog":
+        print("My pet is a Dog")
+    case "cat":
+        print("My pet is a Cat")
+    case "rabbit":
+        print("My pet is a Rabbit")
+    case _:
+        print("Unknown pet")
  
