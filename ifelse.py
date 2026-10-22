@@ -89,5 +89,82 @@ if(year % 400 ==0 or year % 4==0 and year % 100 != 0):
     print("leap year")
 else:
     print("not leap")
-   
+
+# D. Nested if Statements
+# 21. Write a program to check a username first and then check the password only if the username is correct.
+
+username = "pranjal@06"
+password = "pranjal123"
+
+if(username=="pranjal@06"):
+    print("correct")
+    if(password == "pranjal123")
+        print("correct")
+    else:
+        print("incorrect")
+
+else:
+    print("user incorrect")
+
+# 22. Write a program to check whether a person is at least 18 years old and then check whether they are
+# registered to vote.
+
+user = int(input("enter number :- "))
+register = True
+
+if(user >= 18):
+    print("eligible")
+    if(register==True):
+        print("REGISTERD")
+    else:
+        print("not register")
+
+else:
+    print("not eligible")
+
+# 23. Write a program to check whether a student has passed; if passed, check whether the student has scored at
+# least 75 marks for distinction.
+
+markssss = int(input("enter number :- "))
+
+if(markssss>=35):
+    print("passes")
+    if(markssss>=75):
+        print("more then 75")
+    else:
+        print("no more")
+else:
+    print("fail")
+
+# 24. Write a program to check whether a number is positive; if positive, check whether it is even or odd.
+
+num = int(input("enter number :- "))
+
+if(num > 0):
+    print("positive")
+    if(num % 2==0):
+        print("even")
+    else:
+        print("odd")
+elif(num==0):
+    print("num is zero")
+else:
+    print("negative")
+
+# 25. Write a program to check whether an applicant meets the minimum age requirement; if so, check whether
+# their salary is sufficient for a loan.
+
+a_age = int(input("enter number :- "))
+r_age = int(input("enter number :- "))
+a_salary = int(input("enter number :- "))
+s_sal_loan = int(input("enter number :- "))
+
+if(a_age >= r_age):
+    print("done")
+    if(a_salary >= s_sal_loan):
+        print("sufficient")
+    else:
+        print("not suf")
+else:
+    print("not done")
 
