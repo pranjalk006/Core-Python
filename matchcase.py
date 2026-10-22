@@ -149,4 +149,15 @@ match pet:
         print("My pet is a Rabbit")
     case _:
         print("Unknown pet")
- 
+
+#  Password Length check
+
+password = input("Enter password: ")
+
+match len(password):
+    case n if n < 6:
+        print("Weak")
+    case n if n <= 10:
+        print("Medium")
+    case _:
+        print("Long")
