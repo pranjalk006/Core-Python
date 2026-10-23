@@ -240,30 +240,133 @@ for i in range (1,11):
 
 # 37. Print the multiplication table of ₹500 from 1 to 10, showing multiples as savings targets.
 
+table = 500
+for i in range (1,11):
+    table = 500 * i
+    print(i, "into 500", table)
+
 
 
 # 38. Calculate the total amount paid over 12 months if monthly rent starts at ₹5,000 and increases by ₹200 every month.
 
+totall = 0
+rent = 5000
+
+for i in range (1,13):
+    rent += 200
+    totall = totall+rent
+    print(i, "month total is", totall)
+
+
 # 39. A person invests ₹1,000 every month for 12 months. Print the cumulative invested amount after each month, ignoring returns.
+invest = 0
+
+for i in range (1,13):
+    invest += 1000
+    print(i, "month total invest", invest)
+ 
+
 
 # 40. Calculate the total of all transaction amounts from ₹500 to ₹5,000 in increments of ₹500.
 
+inamt = 0
+for i in range (500,5001,500):
+    inamt = inamt+1
+    print(i,"incremented amt", inamt)
+
+
 # 41. Print the balance for 12 months if the initial balance is ₹20,000 and ₹1,000 is withdrawn every month.
+
+balance =  20000
+
+for i in range (1,13):
+    balance -= 1000
+    print(i, "month withdrwal money", balance)
+
+
 
 # 42. Calculate the total simple interest on ₹10,000 at an annual interest rate of 5% for each duration from 1 to 5 years. Use the formula \(SI = \frac{P \times R \times T}{100}\).
 
+principal  = 10000
+rate = 5
+
+for i in range(1, 6):
+    si = (principal*rate*i) / 100
+    print( i," year simple interest:", si)
+
+    
+
 # 43. Print the total balance for each year from 1 to 5 if ₹10,000 earns simple interest at 5% annually, with no additional deposits or withdrawals.
+
+p = 10000
+r = 5
+total = 0
+for i in range (1,6):
+    si = (p*r*i) /100
+    total= p + si
+    print(i,"total is", total)
+
+  
 
 # 44. A person saves ₹1,000 in the first month and increases their monthly deposit by ₹500 each month. Calculate the total savings over 6 months.
 
+saves = 1000
+deposit = 500
+
+for i in range (1,7):
+    saves += deposit
+    print(i,"month balance", saves)
+  
+
 # 45. Print the yearly salary for 5 years if the first year's salary is ₹4,00,000 and it increases by 10% of the original salary each year.
 
-# 46. A bank customer deposits ₹2,000 every month. Print the cumulative balance after each month for 12 months, starting from zero.
 
-# 47. Calculate the total of the first 20 positive integers, treating them as sample transaction values.
+# Q46. Daily Expenses
+# A person spends ₹150 on the first day and increases daily expenses by ₹50 for 7 days. Calculate total expenses.
 
-# 48. Print all multiples of ₹250 from ₹250 to ₹5,000.
+spent = 150
+total = 0
+for i in range(1, 8):
+    total = total + expense
+    expense = expense + 50
 
-# 49. A person starts with ₹50,000 and withdraws ₹2,000 every month. Print the remaining balance for 12 months and calculate the final balance.
+print("Total expenses:", total)
 
-# 50. Calculate the total simple interest earned over 5 years for a principal of ₹50,000 at 6% annual interest. Print the interest earned at the end of each year.
+
+# Q47 A household pays ₹700 in the first month, and the bill increases by ₹50 each month. Print each month's bill and calculate the total for 12 months.
+total = 0
+bill = 700
+for i in range(1, 13):
+    total = total + bill
+    bill = bill + 50
+
+print("Total electricity bill:", total)
+
+
+#Q48 loan eligibility
+
+for age in range(18, 31):
+    if age >= 21:
+        print("Eligible")
+    else:
+        print("Not Eligible")
+
+# Q49 Profit or looss
+
+for i in range(0, 6):
+    if i > 0:
+        print(i, "Profit")
+    elif i < 0:
+        print(i, "Loss")
+    else:
+        print(i, "No Profit No Loss")
+
+# Q50 num is +ve or -ve
+
+for i in range(-5, 6):
+    if i > 0:
+        print(i, "Positive")
+    elif i < 0:
+        print(i, "Negative")
+    else:
+        print(i, "Zero")
