@@ -68,4 +68,68 @@ else:
     print("not prime")
 
 
+# Q1 Print numbers from 10 to 1 in reverse order.
+
+i=10
+while i>=1:
+    print(i,"rev num")
+    i-=1
+
+
+#Q2 Print all even numbers between 1 and 50.
+
+i = 0
+while i<=50:
+    print(i,"even number")
+    i +=2
+
+
+#Q3 Print all odd numbers between 1 and 50.
+
+i = 1
+while i<=50:
+    print(i,"odd number")
+    i +=2
+
+
+#Q4 Print the multiplication table of a number entered by the user.
+
+num = int(input("enter number :- "))
+table = 0
+i = 1
+while i<=10:
+    table = num * i
+    i+=1
+    print(table)
+   
+
+# Q5 Find the sum of numbers from 1 to n.
+n = 5
+sum =0
+i =0
+while i<=n:
+    sum=sum + i
+    i+=1
+print(sum)
+
+
+#Q6 Find the sum of all even numbers between 1 and n.
+
+n = 10
+sum =0
+i =0
+while i<=n:
+    sum=sum + i
+    i+=2
+print(sum)
+
+#Q7 Print numbers from 1 to 10 using a while loop.
+i = 0
+
+while i<=10:
+    print(i,"number")
+    i+=1
+
+
+
     
