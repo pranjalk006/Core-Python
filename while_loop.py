@@ -130,6 +130,37 @@ while i<=10:
     print(i,"number")
     i+=1
 
+#Q8 Print the squares of numbers from 1 to n.
+n = 10
+sqr =0
+i =0
+while i<=n:
+    sqr= i ** 2
+    i+=1
+    print(sqr)
+
+
+#Q9 Print the cubes of numbers from 1 to n.
+
+n = 10
+cube =0
+i =0
+while i<=n:
+   cube = i ** 3
+   print("cube of", i, "is", cube)
+   i+=1
+
+#Q10 Count how many numbers are between 1 and n.
+
+n=11
+i=1
+count =0
+while i<=11:
+   count+=1
+  
+   i+=1
+print(count)
+
 
 
     
