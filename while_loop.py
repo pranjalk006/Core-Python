@@ -1,4 +1,4 @@
-"""
+
 # Fibonacci series
 series = 10
 a = 0
@@ -66,6 +66,6 @@ if count==2:
     print("prime")
 else:
     print("not prime")
-"""
+
 
     
