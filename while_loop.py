@@ -162,5 +162,92 @@ while i<=11:
 print(count)
 
 
+#Q11 Print numbers from 1 to n that are divisible by 5.
+
+n = 20
+i=0
+
+while i <=n:
+    if i % 5 == 0:
+        print(i, "div 5")
+    i+=1
+
+
+# Q12 Calculate the factorial of a number.
+
+n=5
+i=1
+tempp = 1
+while i<=n:
+    tempp = tempp * i
+    i+=1
+print(tempp)
+
+# Q13 Display the first n natural numbers and their sum.
+
+n= int(input("enter no."))
+i=1
+nat = 0
+
+while i<= n:
+    nat += i
+    i+=1
+    print(nat)
+
+# Q14 Print the multiplication table in reverse order, from 10 to 1.  
+table = 0
+i = 10
+n = 5
+
+while i>= 1:
+    table= n * i
+    print(table)
+    i-=1
+
+
+
+# Count the number of digits in a given integer.
+n = int(input("enter no."))
+count = 0
+while n >0:
+    count = count + 1
+    n = n//10
+print("count is",count)
+
+
+# Find the sum of the digits of a number.
+
+n = int(input("enter no."))
+num = 0
+sum=0
+while n >0:
+    num = n % 10
+    sum = sum + num
+    n = n//10
+print("total is ",sum)
+
+# Find the product of the digits of a number.
+
+n = int(input("enter no."))
+num = 0
+pr=1 
+while n >0:
+    num = n % 10
+    pr = pr * num
+    n = n//10
+print("total is ",pr)
+
+
+# Reverse a given number.
+
+n = 285
+digit = 0
+rev = 0
+while n>0:
+    digit = n%10
+    rev = rev *10 +digit
+    n = n//10
+print(rev)
+
 
     
