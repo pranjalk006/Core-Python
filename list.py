@@ -1,4 +1,3 @@
-"""
 numbers = [4,5,5,1,7,1,8,4, "xyz", True,56.65]
 
 print(numbers,"list ")
@@ -48,10 +47,16 @@ for y in range (len(num)):
 for i in num:
     print(i)
 
+
+
+
 i=0
 while i<= len(num):
     print(num[i])
     i+=1
+
+
+
 
 
 n = [34,56,35,87,34,58]
@@ -62,7 +67,6 @@ print(n [3:])
 
 a= [23,56,35,53,90,89]
 b= [98,34,86,34,75,24]
-
 print(a+b)
-"""
+
 
