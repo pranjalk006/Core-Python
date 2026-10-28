@@ -58,7 +58,6 @@ while i<= len(num):
 
 
 
-
 n = [34,56,35,87,34,58]
 print(n [1:5])
 print(n [::-1])
@@ -68,5 +67,44 @@ print(n [3:])
 a= [23,56,35,53,90,89]
 b= [98,34,86,34,75,24]
 print(a+b)
+
+
+
+# practice questions
+# 1
+x= [23,7,"pqr",32.14,True]
+for i in x:
+    print(i)
+
+# 2
+y = [2,4,6,8,10]
+sum=0
+for j in y:
+    sum= sum+j
+print(sum)
+
+
+# 3
+z = [45,55,25]
+if z[0]>z[1] and z[0] > z[2]:
+    print(z[0], "is greater")
+elif z[1]>z[2] and z[1] > z[0]:
+    print(z[1]," is greater")
+else:
+    print(z[2], "is greater")
+
+
+# 4
+p = [34,5,88,26,70]
+e_count = 0
+o_count = 0
+for i in p:
+    if i % 2==0:
+        e_count+=1
+    else:
+        o_count +=1
+        
+print("even", e_count)
+print("odd", o_count)
 
 
