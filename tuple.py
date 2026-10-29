@@ -57,4 +57,22 @@ o_count= len(h) - e_count
 print(e_count)
 print(o_count)
 
+# 11. Find the maximum and minimum values.
+
+i = (34,56,78,32,4,8,31,67)
+print(min(i))
+print(max(i))
+
+# 12. Check whether a particular value exists in a tuple.
+
+j=(34,56,78,32,4,8,31,67)
+print(24 in j)
+print(78 in j)
+
+# 13. Convert a list into a tuple.
+
+k= [4,675,345,678]
+t1 = tuple(k)
+print(t1)
+print(type(t1))
 
