@@ -76,3 +76,57 @@ t1 = tuple(k)
 print(t1)
 print(type(t1))
 
+# 14. Unpack a tuple into four variables.
+l = "pranjal", "python", 20, "pune"
+name, course, age, city = l
+print(name, course, age, city)
+
+# 15. Swap two variables using tuple unpacking.
+m= "pranjal", "python"
+name, course = m
+nav , kam = name, course
+print(nav, kam)
+
+# 16. Access a specific value from a nested tuple.
+
+n = (("a",1), ("b",2), ("c",3))
+print(n[2])
+print(n[1][1])
+# 17. Remove duplicate values while preserving order.
+
+o = (1,1,2,3,4,5,2,5,6)
+pre = []
+
+for i in o:
+    if i not in pre:
+        pre.append(i)
+
+l1 = tuple(pre)
+print(pre)
+
+
+# 18. Find the second-largest distinct number.
+
+p = (34,56,78,32,4,8,31,67)
+t = list(p)
+t.sort()
+print(t)
+p= tuple(t)
+
+print(t[-2])
+
+# 19. Sort a tuple in ascending order and convert the result back into a tuple.
+
+q = (34,56,78,32,4,8,31,67)
+l2 = list(q)
+l2.sort()
+q =tuple(l2)
+
+print(q)
+
+# 20. Create a tuple of student names and marks, then print each student's details.
+
+std = (("rahul", 50), ("priya",90),("ram",60),("sneha", 95))
+for name, marks in std:
+    print(name, marks)
+
