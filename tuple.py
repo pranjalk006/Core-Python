@@ -1,4 +1,4 @@
-"""
+# Practise questions
 #1. Create a tuple containing five integers and print it.
 
 a = (34,567,234,8,4,45)
@@ -56,14 +56,5 @@ for i in h:
 o_count= len(h) - e_count
 print(e_count)
 print(o_count)
-"""
-# 11. Find the maximum and minimum values.
-# 12. Check whether a particular value exists in a tuple.
-# 13. Convert a list into a tuple.
-# 14. Unpack a tuple into four variables.
-# 15. Swap two variables using tuple unpacking.
-# 16. Access a specific value from a nested tuple.
-# 17. Remove duplicate values while preserving order.
-# 18. Find the second-largest distinct number.
-# 19. Sort a tuple in ascending order and convert the result back into a tuple.
-# 20. Create a tuple of student names and marks, then print each student's details.
+
+
