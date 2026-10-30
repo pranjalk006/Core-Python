@@ -1,4 +1,4 @@
-"""
+
 # 1. Create a dictionary containing your name, age, and city.
 
 details = {"name": "pranjal", "age": 20, "city":"pune"}
@@ -47,10 +47,3 @@ print(n_dict)
 
 s_dict = {number : number **2 for number in range(1,10)}
 print(s_dict)
-"""
-# 11. Print only students who scored more than 75.
-# 12. Count the frequency of each character in a string using a dictionary.
-# 13. Use range() to print dictionary entries by position after converting items to a list.
-# 14. Use fromkeys() to initialize five subject marks to zero.
-# 15. Copy a dictionary and demonstrate that changing a top-level value in the copy does not change
-# the original.
