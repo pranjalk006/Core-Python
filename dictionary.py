@@ -47,3 +47,35 @@ print(n_dict)
 
 s_dict = {number : number **2 for number in range(1,10)}
 print(s_dict)
+
+# 11. Print only students who scored more than 75.
+students = {"a": 80, "b": 65, "c": 90,"d": 72,"e": 85}
+
+for name, marks in students.items():
+    if marks > 75:
+        print(name, marks)
+
+  
+# 12. Count the frequency of each character in a string using a dictionary.
+
+a= {"name": "pranjal", "age": 20, "city":"pune"}
+data = list(a.items())
+for i in range(len(data)):
+    print(data[i])
+# 13. Use range() to print dictionary entries by position after converting items to a list.
+
+
+# 14. Use fromkeys() to initialize five subject marks to zero.
+subjects = ["Python", "Java", "SQL", "HTML", "CSS"]
+marks = dict.fromkeys(subjects,100)
+print(marks)
+  
+# 15. Copy a dictionary and demonstrate that changing a top-level value in the copy does not change
+# the original.
+
+a = {"name": "pranjal", "age": 20, "city":"pune"}
+b= a.copy()
+b["age"]=21
+
+print(a)
+print(b)
